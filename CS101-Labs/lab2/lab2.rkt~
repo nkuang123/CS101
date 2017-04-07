@@ -1,0 +1,25 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname lab2) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+; CS101 Lab 2
+; Name: <YOUR NAME>
+ 
+; Exercise 1:
+; Define the function letter-grade that consumes a number between 
+; 0 and 100, and produces a letter grade ("A", "B", "C", "D", "F") 
+; using the usual 90, 80, 70, 60 cutoffs. 
+ 
+; Exercise 2:
+; Define the function pass? that determines whether the given number
+; grade is a passing grade (60 or higher).
+ 
+; Exercise 3:
+; Define the function pass-fail that consumes a number grade and 
+; determines either "pass" or "fail". Use the pass? predicate function
+; from Exercise 2.
+ 
+; Exercise 4:
+; Define the function NRO-grade, which consumes a number grade and a 
+; minimum numeric grade between 0 and 100, and produces either a 
+; letter grade, "PA", or "F", according to Vassar's NRO rules. You
+; are encouraged to use one or more functions from Exercises 1-3 as
